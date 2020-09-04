@@ -75,8 +75,19 @@ Drop table if it already exists
 
 Use the following privatisation rules:
 
-FIRST_NAME, LAST_NAME - generate a random number from 1 to 10 for each existing employee record. Lookup name of randomly generated employee ID and use that in place of their real name
-DOB - 
+FIRST_NAME, LAST_NAME 
+
+Generate a random number from 1 to 10 for each existing employee record. 
+Lookup name of randomly generated employee ID and use that in place of their real name
+
+DOB
+
+Generate a random number, add the random number to the current DOB to calculate a new one (can either subtract or add days)
+
+PHONE_NUMBER
+
+Assuming the phone number starts with 4 and is 9 characters in length
+Generate a random number between 400000000 and 499999999
 
 */
 
