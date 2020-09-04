@@ -20,3 +20,5 @@ The source sql files within this repository have been developed using a pre-buil
 src/problem_1_solution.sql - Provides solution to the Employee data privatisation problem
 
 src/problem_2_solution.sql - Provides solution to extract transaction reference id's from the customer transaction data
+
+All .sql files can be run multiple times, tables and source data will be recreated each time the scripts run.
